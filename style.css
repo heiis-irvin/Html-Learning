@@ -102,14 +102,25 @@ body{
 .content-gallery{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    margin-bottom: 20px;   
 }
 
 .images{
     display: grid;
-    grid-template-columns: 200px 200px ;
+    grid-template-columns: 0.25fr 0.25fr ;
     gap: 10px;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.content-h1{
+    color: red;
+    text-align: center;
+}
+
+.content-gallery .images img{
+    width: 500px;
+    border-bottom: 10px red solid;
 }
 
