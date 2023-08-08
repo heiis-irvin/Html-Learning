@@ -98,3 +98,18 @@ body{
 }
 
 /* Gallery CSS */
+
+.content-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
