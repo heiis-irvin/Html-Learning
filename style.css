@@ -1,7 +1,9 @@
-*{
+body{
     margin: 0;
     padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
 }
+
 .head{
     background-color: red;
     height: 100px;
@@ -9,8 +11,8 @@
     justify-content: center;
     align-items: center;
 }
-.head-text{
-    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+
+#head-text{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +21,32 @@
     height: 50px;
     width: 200px;
     color: white;
+}
+.banner{
+    width: 100vw;
+    border-bottom: 10px solid red;
+}
+
+.nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100vw;
+    margin-top: -10px;
+    color: white;
+}
+
+.content{
+    margin-top: -50px;
+    padding: 80px;
+    font-size: larger;
+    
+    
+}
+
+.content h1{
+    color: red;
+    text-align: center;
 }
